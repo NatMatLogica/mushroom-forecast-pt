@@ -1,0 +1,62 @@
+{
+ "model_version": "0.3.0",
+ "generated": "2026-11-17",
+ "design": {
+  "pre_days": 90,
+  "post_days": 55,
+  "control_span": 45,
+  "control_step": 3,
+  "control_gap": 7,
+  "source": "GBIF occurrence API + Open-Meteo archive"
+ },
+ "summary": {
+  "Boletus edulis": {
+   "records": 92,
+   "auc": 0.5882352941176471,
+   "mean_find": 84.54347826086956,
+   "mean_control": 76.31635016211209,
+   "go_rate_find": 0.8695652173913043,
+   "go_rate_control": 0.666512274201019
+  },
+  "Boletus edulis [v0.2 event rule]": {
+   "records": 92,
+   "auc": 0.5055002315886985,
+   "mean_find": 63.20652173913044,
+   "mean_control": 64.1797128300139,
+   "go_rate_find": 0.5978260869565217,
+   "go_rate_control": 0.553960166743863
+  },
+  "Boletus reticulatus": {
+   "records": 121,
+   "auc": 0.49080563116601594,
+   "mean_find": 55.87603305785124,
+   "mean_control": 57.820417287630406,
+   "go_rate_find": 0.4132231404958678,
+   "go_rate_control": 0.4046199701937407
+  },
+  "Boletus aereus": {
+   "records": 52,
+   "auc": 0.28227522113985,
+   "mean_find": 37.55769230769231,
+   "mean_control": 64.97962154294032,
+   "go_rate_find": 0.19230769230769232,
+   "go_rate_control": 0.4745269286754003
+  },
+  "Armillaria mellea": {
+   "records": 110,
+   "auc": 0.5401187997132421,
+   "mean_find": 76.66363636363636,
+   "mean_control": 75.39279008636876,
+   "go_rate_find": 0.7272727272727273,
+   "go_rate_control": 0.7067217423957942
+  },
+  "Amanita caesarea": {
+   "records": 56,
+   "auc": 0.4651805453205601,
+   "mean_find": 50.607142857142854,
+   "mean_control": 52.07885040530582,
+   "go_rate_find": 0.35714285714285715,
+   "go_rate_control": 0.3220338983050847
+  }
+ }
+}

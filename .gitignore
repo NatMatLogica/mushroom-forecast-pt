@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+mushroom/runs/
+mushroom/ipma_archive.db
+mushroom-dashboard.html
+.pytest_cache/
+.venv/
+mushroom/ecmwf_cache/
+deploy/
+*.env
